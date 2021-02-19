@@ -5,6 +5,7 @@ const num = 99; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :)
 if(num <= 102) {
     if(num >= 50) {
         console.log("HEY!");
+        console.log(num);
     }
 } else {
     if (num < 103) {
