@@ -19,9 +19,9 @@ while (command !== 'quit' && command != 'q') {
             console.log(`${i}: ${todoList[i]}`);
         }                                           
         console.log ('### end of list ###:')
-        const itemToDelete = parseInt(prompt('enter item number you wish to DELETE: '));  // get input from user
+        const itemToDelete = parseInt(prompt('enter item number you wish to DELETE: '));  // get input from user; return integer
         console.log(`${todoList[itemToDelete]} will be removed from list`); // display item to be deleted
-        todoList.splice(itemToDelete,1);                                    // remove item from todoList array
+        todoList.splice(itemToDelete,1);                                  // remove item from todoList array
     }
     command = prompt('enter command [ add | list | delete | quit ]: ');
 }
